@@ -36,7 +36,7 @@ do
 
   # if there is something in 'output' then write it to the file
   if [[ $output ]]; then
-    echo -e "Commits in $name: \n" >> ./$reportName
+    echo -e "Commits in $name: " >> ./$reportName
     echo -e "$output\n" >> ./$reportName
   fi
 
