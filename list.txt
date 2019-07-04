@@ -58,8 +58,6 @@ git@github.com:ow2-proactive/backup-attachments-jira.git
 git@github.com:ow2-proactive/agent-common.git
 git@github.com:ow2-proactive/connector-windows-azure.git
 git@github.com:ow2-proactive/nagios-plugins.git
-
-
 git@bitbucket.org:activeeon/scheduling-system-tests.git
 git@bitbucket.org:activeeon/job-planner-ear.git
 git@bitbucket.org:activeeon/studio-and-workflow-catalog-ear.git
