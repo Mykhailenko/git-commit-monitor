@@ -59,5 +59,5 @@ DIFF=$(echo "$END - $START" | bc)
 
 
 echo "$reportName created in ${DIFF}s!"
-
+echo -e "\nReport finished!" >> ./$reportName
 
