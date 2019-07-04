@@ -1,8 +1,8 @@
 #!/bin/bash
 
+START=$(date +%s)
+
 # chech paramteres
-
-
 if [ "$#" -gt 2 ] || [ "$#" -eq 0 ] ; then
     echo "Example of usage: ./day 2019-07-01 [2019-07-03]"
     exit
@@ -54,6 +54,10 @@ do
 
 done
 
-echo "$reportName created!"
+END=$(date +%s)
+DIFF=$(echo "$END - $START" | bc)
+
+
+echo "$reportName created in ${DIFF}s!"
 
 
